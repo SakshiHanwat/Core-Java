@@ -1,3 +1,4 @@
+
 # Introduction to Java ☕
 
 ## What is Java?
@@ -103,7 +104,6 @@ Hello, Java!
 Syntax of a Variable
 type variableName = value;
 
-
 Type → defines what data can be stored.
 
 Variable Name → identifier chosen by programmer.
@@ -115,7 +115,6 @@ Variable Name → identifier chosen by programmer.
 📌 Example:
 
 int num = 3;
-
 
 int → type.
 
@@ -141,17 +140,15 @@ Example 1: Direct addition in print statement:
 
 System.out.println(3 + 5); // Output: 8
 
-
 Example 2: Using variables:
 
 int num1 = 3;
 int num2 = 5;
 System.out.println(num1 + num2); // Output: 8
 
-
 Example 3: Storing result in another variable:
 
 int num1 = 3;
 int num2 = 5;
 int result = num1 + num2;
-System.out.println(result); // Output: 8           
+System.out.println(result); // Output: 8
