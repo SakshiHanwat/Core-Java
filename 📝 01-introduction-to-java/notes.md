@@ -52,3 +52,50 @@ public class Main {
         System.out.println("Hello, Java!");
     }
 }
+# 📘 Variables in Java
+
+---
+
+## 🔹 What Happens Behind the Scenes
+- As a Java developer, you **write code** with a `.java` extension.  
+- The code is compiled by **`javac` (Java Compiler)** → generates **Bytecode** (`.class` file).  
+- Bytecode is run inside the **JVM** (Java Virtual Machine), which is part of **JRE**.  
+- **JRE** = JVM + Built-in Libraries.  
+- JRE runs on top of the **Operating System (OS)**.  
+- Developers install **JDK** (Java Development Kit), which provides:
+  - Compiler (`javac`)
+  - Updated JRE + JVM  
+- Current LTS version: **JDK 17** (but concept remains the same even in future versions).  
+
+---
+
+## 🔹 Why Do We Build Software?
+- To **solve real-world problems** with virtual solutions.  
+- Examples:
+  - **Amazon** → Online shopping  
+  - **Uber** → Cab booking  
+  - **Online Banking** → Money transfers  
+- The most important thing in software is **DATA**.
+
+---
+
+## 🔹 Working with Data
+- Applications **accept data from the user**, process it, and may store it.  
+- **Storage Types**:
+  - **Permanent Storage** → Database (data remains even after shutdown).  
+  - **Temporary Storage** → **Variables** (data exists while program runs).  
+
+---
+
+## 🔹 What is a Variable?
+- A **variable** is like a **box** that stores data.  
+- Each variable has:
+  1. **Name** → Identifier (e.g., `num`, `marks`, `user`)  
+  2. **Value** → Data stored inside (e.g., `5`, `6.5`, `"Naveen"`)  
+  3. **Type** → Defines what kind of data can be stored.  
+
+---
+
+## 🔹 Syntax of a Variable
+```java
+type variableName = value;
